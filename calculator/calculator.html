@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container pt-5">
+        <h2>Simple Calculator</h2>
+
+        <form action="">
+            <div class="row">
+                <div class="col mb-3">
+                    <label for="num1">Number 1</label>
+                    <input type="number" class="form-control" id="num1" name="num1" placeholder="Enter first number">
+                </div>
+                <div class="col mb-3">
+                    <label for="operator">Operators : </label>
+                    <select name="operator" id="operator" class="form-control">
+                        <option value="+">Addition(+)</option>
+                        <option value="-">Substraction(-)</option>
+                        <option value="*">Multiplication(x)</option>
+                        <option value="/">Dividation(/)</option>
+                    </select>
+                </div>
+                <div class="col mb-3">
+                    <label class="" for="num2">Number 2</label>
+                    <input type="number" class="form-control" id="num2" name="num2" placeholder="Enter second number">
+                </div>
+            </div>
+            <div class="col">
+                <input type="submit" id="check" class="btn btn-info text-white" value="Calculator">
+            </div>
+            <div class="mt-3 col">
+                <input id="result" type="text" class="form-control" id="value" value="">
+            </div>
+        </form>
+    </div>
+
+   
+    
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
